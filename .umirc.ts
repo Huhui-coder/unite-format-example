@@ -1,8 +1,11 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  layout: {},
+  layout: {
+    name: 'Ant Design',
+    locale: false,
+  },
   nodeModulesTransform: {
     type: 'none',
-  }
+  },
 });
